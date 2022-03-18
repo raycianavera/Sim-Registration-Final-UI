@@ -34,7 +34,7 @@
       <nav class="navbar navbar-expand-lg">
         <a class="div1 navbar-brand" href="navbar.php">
             <img src="images/logo.png" width="30" height="32" class="d-inline-block align-top" alt="">
-            <span class="brandname">SimCardRegistrationSystem</span>
+            <span class="brandname">Sim Card Registration System</span>
           </a>
 
         <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,7 +68,7 @@
 
           ?>
 
-          <form class="form-btnn" action="#" method="POST">
+          <form class="form-btnn" action="Logout/logoutprocess.php" method="POST">
             <button type="submit" name="btn-primary" class="log-button">Logout</button>
           </form>
         </div>
