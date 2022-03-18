@@ -3,7 +3,7 @@
   if(isset($_POST['indexButton'])){
 
     $UserLoginNumberPHP = $_POST['IndexNumber']; //Get input
-    require_once 'EndUser.inc.php';
+    require_once '../dbh/EndUser.inc.php';
     require_once 'indexFunction.php';
 
     //ERROR FOR EMPTY BOX

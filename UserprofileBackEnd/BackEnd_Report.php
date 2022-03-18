@@ -1,5 +1,5 @@
 <?php
-include_once "EndUser.inc.php";
+include_once "../dbh/EndUser.inc.php";
 
 if(isset($_POST['reportbutton'])){
 
@@ -25,7 +25,7 @@ if(isset($_POST['reportbutton'])){
   $UserSuffix        = $_SESSION['UserSuffix'];
 
   $Middle            = substr($UserMiddlename,0,1);
-  $Victim_Name       = $LastName.", ".$FirstName." ".$Middle.;
+  $Victim_Name       = $LastName.", ".$FirstName." ".$Middle;
   $Victim_Image_Name = $LastName."-".$FirstName;
   $Victim_Num        = $SimCardNumber;
    ///////////////////////////////// GETTING IMAGE DETAILS  /////////////////////////////////
