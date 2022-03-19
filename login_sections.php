@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="styles/userlogin1.css">
   <!-- FONT AWESOME -->
   <script src="https://kit.fontawesome.com/207a28b81e.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -106,10 +107,10 @@
 //LOGIN USER
           echo "<div class='div-for-retail'>
 
-          <form action='UserprofileBackEnd/index.inc.php' method='post' class='form-retail'>
+          <form name='otpForm' action='UserprofileBackEnd/index.inc.php' method='post' class='form-retail'>
 
           <p class='userlogtext'>USER LOGIN</p>
-          <input type='tel' name='IndexNumber' class='input-retail' placeholder='Mobile Number ex: +639176578905' required>
+          <input type='tel' name='IndexNumber' id='userMobileNum' class='input-retail' placeholder='Mobile Number ex: +639176578905' required>
           <button type='Submit' name='indexButton' class='btn'>Submit</button>";
           //^first half of login page
           //ERROR MESSAGES
@@ -153,7 +154,7 @@
 
     </div>
 
-
+        <script src="./sim-registration-otp/requestOtp.js"></script>
 
 </body>
 </html>

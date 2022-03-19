@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="styles/otpstyle.css">
   <!-- FONT AWESOME -->
   <script src="https://kit.fontawesome.com/207a28b81e.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -47,7 +48,7 @@
           <form action='seller-register-local.html' method='post' class='form-retail'>
 
           <p class='userlogtext'>ENTER OTP</p>
-          <input type='text' name='' class='input-retail' placeholder='Enter the OTP sent to your mobile number' required>
+          <input type='text' name='otpName' id='otpnum' class='input-retail' placeholder='Enter the OTP sent to your mobile number' required>
           <button type='Submit' name='button' class='btn'>Submit</button>
 
 
@@ -74,7 +75,7 @@
 
     </div>
 
-
+  <script src="./sim-registration-otp/Otp.js"></script>
 
 </body>
 </html>
